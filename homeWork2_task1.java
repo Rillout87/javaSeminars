@@ -2,8 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Solution {
-    
-    
+       
     List<List<Integer>> result = new ArrayList<>();
 
     public List<List<Integer>> combine(int n, int k) {
@@ -22,6 +21,5 @@ class Solution {
             curComb.remove(curComb.size() - 1);
         }
     }
-
-
 }
+
